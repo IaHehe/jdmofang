@@ -1,0 +1,265 @@
+@charset "UTF-8";
+.floor {
+    margin: 100px auto;
+}
+/*tab标签栏*/
+.floor .mt{
+    overflow: visible;/*不加overflow:visible选项卡的效果一样*/
+    border-bottom: 1px solid #C81623;
+}
+.floor h2 {
+    /*display: inline;*/
+    float: left;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+.floor h2 i {
+    display: inline-block;
+    width: 21px;
+    height: 25px;
+    padding-right:10px;
+    background: url(../images/product_home.png) no-repeat 0 0;/*-31px;*/
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+.floor .tab {
+    /*display: inline;*/
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #EDEDED;
+    border-bottom: 0 none;
+}
+.floor .tab-item {
+    float: left;
+    display: inline;
+    position: relative;
+    height: 34px;
+}
+.floor .tab-item a {
+    float: left;
+    height: 34px;
+    padding: 0 16px;
+    text-decoration: none;
+    overflow: hidden;
+    line-height: 34px;
+    background: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.floor .tab-selected a{
+    position: relative;
+    border-left: 1px solid #C81623;
+    border-right: 1px solid #C81623;
+    border-top: 3px solid #C81623;
+    color: #C81623;
+    height: 33px;
+    top: -1px;
+    left: -1px;
+    margin-right: -1px;
+    z-index: 1;
+}
+.floor .tab-item span {
+    overflow: hidden;
+    width: 1px;
+    background-color: #ccc;
+    height: 14px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.floor .tab-item span.last{
+    background-color: rgb(255,255,255);
+}
+/*内容区*/
+/*内容区左侧*/
+.floor .slide {
+    float: left;
+    width: 330px;
+    overflow: hidden;
+    font-family: "Microsoft YaHei";
+}
+.floor .slide-inner {
+    position: relative;
+    width: 330px;
+    overflow: hidden;
+    background-color: #EAEBF5;
+}
+/*banner*/
+.floor .banner {
+    position: relative;
+    height: 474px;
+}
+.floor .banner a {
+    display: block;
+    height: 475px;
+}
+.floor .banner img {
+    vertical-align: top;
+}
+/*主题*/
+.floor .themes {
+    position: relative;
+    padding-left: 10px;
+    margin-top: -237px;
+    height: 92px;
+    overflow: hidden;
+    background: rgba(255,255,255,.5);
+
+}
+#floor_cloths .themes {
+    padding-left: 25px;
+    margin-top: -221px;
+}
+.floor .themes li {
+float: left;
+width: 100px;
+height: 26px;
+padding: 10px 0;
+}
+.floor .themes a {
+    display: block;
+    width: 100%;
+    height: 26px;
+    text-align: center;
+}
+.floor .themes i,.floor .themes span {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+}
+#floor_cloths .themes i {
+    width: 26px;
+    margin-right: 5px;
+    background: url(../images/cloths-icon.png) no-repeat 0 0;
+}
+#floor_cloths .themes span {
+    font-size: 14px;
+    /*margin-right: 5px;*/
+}
+/*关键词*/
+.floor .words {
+    position: relative;
+    height: 76px;
+    background: rgba(255,255,255,.7);
+    font-family: SimSun;
+}
+#floor_cloths .words {
+    height: 128px;
+    border-bottom: 1px solid #ededed;
+}
+.floor .words li {
+    float: left;
+    width: 135px;
+    height: 48px;
+    padding: 7px 0 0 25px;
+    overflow: hidden;
+}
+#floor_cloths .words li {
+    padding-top: 16px;
+    height: 96px;
+}
+.floor .words a {
+    float: left;
+    margin-right: 10px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+.floor .words a:link,.floor .words a:visited {
+    color: #999;
+}
+.floor .words a:hover {
+    color: #C81623;
+}
+/*extra*/
+#floor_cloths .slide-extra {
+    width: 328px;
+    height: 157px;
+    border: 1px solid #EDEDED;
+    border-top: 0;
+    border-left-color: #F7F5EE;
+}
+
+/*tab栏main-goods部分*/
+.floor .main-goods {
+    float: left;
+    position: relative;
+    width: 880px;
+    height: 633px;
+    overflow: hidden;
+}
+.floor .main-body {
+    float: left;
+    width: 660px;
+}
+.floor .main-inner li {
+    width: 220px;
+    overflow: hidden;
+    font-size: 0;
+}
+#floor_cloths .main-body li {
+    float: left;
+    height: 158px;
+}
+#floor_cloths .main-body li.fore1 {
+    width: 440px;
+}
+#floor_cloths .main-body li.fore2 {
+    width: 440px;
+    height: 159px;
+    padding-top: 316px;
+}
+#floor_cloths .main-body li.fore3 {
+    margin-top: -158px;
+}
+.floor .main-inner a {
+    display: block;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.floor .main-extra {
+    float: right;
+    width: 220px;
+}
+#floor_cloths .main-extra li {
+    height: 158px;
+}
+#floor_cloths .main-extra li.fore3 {
+    height:316px;
+}
+/*轮播图*/
+.floor .main-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 439px;
+    height: 315px;
+    border-bottom: 1px solid #EDEDED;
+    border-right: 1px solid #EDEDED;
+}
+#floor_cloths .main-slider {
+    top: 158px;
+    height: 316px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

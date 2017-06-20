@@ -50,6 +50,15 @@ s,i,em{font-style:normal;text-decoration:none;}/*s标签为删除键*/
 .hide {
     display:none
 }
+h2,h3 {
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+.styel-red {
+    color: #C81623!important;
+}
+
+
 /*登录界面，屏幕遮罩*/
 .mask {
     display: none;
