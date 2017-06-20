@@ -1,0 +1,204 @@
+@charset "UTf-8";
+/*大banner部分*/
+.banner604 {
+    position: relative;
+}
+.banner604 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url(../images/ad.jpg) no-repeat top center;
+}
+/*主体内容*/
+.main {
+    position: relative;
+}
+/*-----------轮播图-------------*/
+.slider {
+    width: 730px;
+    height: 453px;
+    margin: 12px 0  0 220px;
+    background-color: pink;
+    float: left;
+    position: relative;
+}
+.slider .slider-banner {
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider .slider-banner li{
+    float: left;
+    width: 100%;
+    height: 453px;
+    /*position: absolute;*/
+}
+.slider .slider-banner ul a {
+    display: inline-block;
+}
+.circle {/*小圆点*/
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    /*margin-left: -66px;*/
+}
+.circle li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color: #3E3E3E;
+    border-radius: 50%; /*50%使边框形成一个圆*/
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle li.current {
+    background-color: #B61B1F;
+}
+.arrow {
+    display: none;
+}
+.arrow-l, .arrow-r {/*小三角*/
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    font: 400 22px/62px "SimSun";
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.arrow-l:hover,.arrow-r:hover {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+/*-----------轮播图右边区域-------------*/
+.news {
+    width: 248px;
+    height: 451px;
+    float: right;
+    border: 1px solid #E4E4E4;
+    margin: 12px 1px 0 0;
+}
+/*-----------京东快报-------------*/
+.jd-news {
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4; /*虚线*/
+}
+.jd-news .dt, .life-service .dt{
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7; /*点线*/
+    line-height: 43px;
+}
+.jd-news .dt h3, .life-service .dt h3 {
+    float: left;
+    font: 14px/43px "microsoft yahei";
+    color: #666;
+    padding-left: 15px;
+}
+.jd-news .dt a {
+    float: right;
+    font: 13px/43px "SimSun";
+    padding-right: 15px;
+}
+.jd-news .dd ul {
+    padding: 8px 0 0 15px;
+}
+.jd-news .dd li {
+    line-height: 28px;
+}
+.jd-news .dd li span {
+    font-weight: 700;
+    padding-right: 5px;
+}
+/*-----------京东生活服务-------------*/
+.life-service {
+    height: 251px;
+    width: 248px;
+    overflow: hidden;
+}
+.life-service ul {
+    width: 252px;
+}
+.life-service ul li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E8E8E7;
+    border-top: 0;
+    border-left: 0; /*去除左边框，等价于margin-left: -1px;*/
+    float: left;
+}
+.life-service li a {
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 42px;
+    position: relative;
+}
+.life-service li i{
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_lifeserv.png) no-repeat right 0;
+}
+/*li.life-icon2 i{*/
+    /*background-position: right -25px;*/
+/*}*/
+.life-service .song {
+    background: url(../images/song.png) no-repeat right top;
+}
+
+/*双11 活动*/
+.todays {
+    position: relative; /*因为大banner部分中的a标签定位后挡住了.todays这个盒子，使用相对定位提高层级*/
+}
+.night {
+    margin: 10px 0 28px 0;
+}
+.night-r {
+    width: 1000px;
+    height: 160px;
+}
+.night-r ul {
+    width: 500%;
+}
+.night-r ul li {
+    float: left;
+    margin-right: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
